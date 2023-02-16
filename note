@@ -1,0 +1,27 @@
+
+<button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+value="Menu"><i class="fa fa-bars"></i>
+</button>
+    
+    <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="brand-heading">grayscale</h1>
+                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created with love.</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> 
+   
+    <div style="color: white ;">
+        <h1 >Babio Toïb</h1>
+        <br>
+
+        <h2> Biographie </h2>
+        <h2> Professional space </h2>
+        <h2> Highgliths Publications </h2>
+        <h2> More </h2>
+    </div>

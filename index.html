@@ -5,20 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sr_Babio</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 </head>
 <body>
-   
-    <div style="color: white ;">
-        <h1 >Babio Toïb</h1>
-        <br>
 
-        <h2>Biographie</h2>  
-        <h2>Professional space </h2> 
-        <h2> Highgliths Publications</h2>
-        <h2> More</h2>
-    </div>
+    <nav class="container-fluid navbar">
+        <div class="w-100 d-inline-flex text-uppercase">
+            <div class="justify-content-start ">
+                <a href="#" class="navbar-brand nav-link js-scroll-trigger">Brand</a>
+            </div>
+
+            <div class="justify-content-end w-100 d-flex flex-end d-md-none">
+                
+
+                <section class="userbutton">
+                    <div id="actionProfilMenu" class="action">
+                        <div class="profile" onclick="menuToggle();">
+                            <img src="./image/font_1.jpg" alt="img">
+                        </div>
+                        <div class="menu">
+                            <h1>Someone Famous <br> <span>Website Designer</span></h1>
+                            <ul>
+                                <li> <img src="./image/icone/th.jpeg" alt="img">
+                                    <a href="#"> My Profile</a>
+                                </li>
+                                <li> <img src="./image/icone/th_1.jpeg" alt="img">
+                                    <a href="#"> Edit Profile</a>
+                                </li>
+                                <li> <img src="./image/icone/th_2.jpeg" alt="img">
+                                    <a href="#">Inbox</a>
+                                </li>
+                                <li> <img src="./image/icone/th_3.jpeg" alt="img">
+                                    <a href="#">Settings</a>
+                                </li>
+                                <li> <img src="./image/icone/th_3.jpeg" alt="img">
+                                    <a href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            
+
+            <div class="w-100 d-none d-md-inline justify-content-center">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Overview</a> </li>
+                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Feature</a> </li>
+                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Getting Started</a> </li>
+                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Media</a> </li>
+                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">FAQ</a> </li>
+                </ul>
+            </div>
+
+            <div class="justify-content-end d-none d-md-inline">
+                <div class="d-flex align-content-between">
+                    <a href="#" class="btn btn-lg">SIGN_IN</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
     
+    <footer>
+        <div class="text-center">
+            <p>Copyright ©&nbsp;Brand 2022</p>
+        </div>
+    </footer>
 
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
 </body>
 </html>
