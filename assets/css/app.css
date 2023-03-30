@@ -1,125 +1,77 @@
 *{
-    background: linear-gradient(90°,rgb(70, 66, 66),rgb(182, 182, 182));
+    padding: 0px 0px;
+    background-color: rgb(0, 0, 0);
+    /* background:linear-gradient(#050760,#050760) ; */
+    /* background-color: linear-gradient(90°,rgb(207, 182, 182),rgb(182, 182, 182)); */
     color: white;
-
 }
 
-
-/* Account user icon */
-.action {
-    position: fixed;
-    top: 20px;
-    right: 30px;
-}
-
-.action .profile {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    overflow: hidden;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.action .profile img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+body{
     height: 100%;
-    object-fit: cover;
-}
-
-.action .menu {
-    position: absolute;
-    background-color: white;
-    padding: 20px;
-    border-radius: 15px;
-    top: 120px;
-    right: -10px;
-    width: 210px;
-    box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
-    transition: 0.5s;
-    box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
-    /*Hide the button open*/
-    visibility: hidden;
-    opacity: 0;
-}
-
-.action .menu.active {
-    top: 80px;
-    visibility: visible;
-    opacity: 1;
-}
-
-.action .menu:before {
-    content: '';
-    position: absolute;
-    top: -16px;
-    right: 34px;
-    width: 10px;
-    height: 10px;
-    background-color: #cfbebe;
-    transform: rotate(45deg);
-}
-
-.action .menu h1 {
     width: 100%;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    color: #555;
-    margin-bottom: 15px;
 }
 
-.action .menu h1 span {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgb(134, 125, 125);
+#navbarSupportedContent ul li a, .title-site a{
+    color:white;
 }
 
-.action .menu ul {
-    list-style: none;
+.connect li a {
+    border: 1px solid rgba(160, 151, 151, 0.644);
+    margin: 0 5px;
+    border-radius: 12px;
+    padding: 5px 6px;
 }
 
-.action .menu ul li {
-    font-size: 16px;
-    padding: 5px 0;
+.connect li a:hover {
+    color: white;
+    background-color: rgb(219, 83, 20);
+    border: none;
+}
+
+.landing,.landing-2{
+    height: 100vh;
+    justify-content: center;
+    padding:0 20px;
+}
+
+.landing {
     display: flex;
-    align-items: center;
-    border-top: 1px solid rgba(85, 85, 85, .3);
-    transition: .5s;
+    flex-direction: column;
 }
 
-.action .menu ul li img {
-    font-size: 16px;
-    max-width: 20px;
-    margin-right: 20px;
-    opacity: 0.5;
+.landing-sec-1{
+    font-weight: bold;
+    line-height: 1.5em ;
+    font-size: 50px ;
 }
 
-.action .menu ul li a {
-    text-decoration: none;
-    font-weight: 400;
-    color: darkslategrey;
-}
-
-.action .menu ul li:hover img {
-    opacity: 1;
-    transition: .5s;
-}
-
-.action .menu ul li:hover a {
-    color: rgb(163, 36, 153);
-}
-
-body { 
-    /* background-color: linear-gradient(90°,rgb(70, 66, 66),rgb(182, 182, 182)); */
-}
-
-/* .container {
-    margin: auto;
+.landing-sec-2{
     width: 50%;
-    padding: 16px;
-    background-color: white;
-} */
+    opacity: 0.8;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+.first-section p{
+    font-weight: bolder;
+    line-height: 1.5em ;
+    font-size: 50px ;
+    width:45%;
+    opacity: 0.6;
+}
+
+.second-section{
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    opacity: 0.7;
+    line-height: 2;
+}
+
+.second-section p {
+    width:75%;
+    text-align: justify;
+}

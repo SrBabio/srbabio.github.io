@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sr_Babio</title>
+    <style>
+        
+    </style>
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
@@ -13,65 +17,103 @@
 </head>
 <body>
 
-    <nav class="container-fluid navbar">
-        <div class="w-100 d-inline-flex text-uppercase">
-            <div class="justify-content-start ">
-                <a href="#" class="navbar-brand nav-link js-scroll-trigger">Brand</a>
-            </div>
+    <nav id="page-top" class="navbar navbar-expand-lg fixed-top">
 
-            <div class="justify-content-end w-100 d-flex flex-end d-md-none">
-                
-
-                <section class="userbutton">
-                    <div id="actionProfilMenu" class="action">
-                        <div class="profile" onclick="menuToggle();">
-                            <img src="./image/font_1.jpg" alt="img">
-                        </div>
-                        <div class="menu">
-                            <h1>Someone Famous <br> <span>Website Designer</span></h1>
-                            <ul>
-                                <li> <img src="./image/icone/th.jpeg" alt="img">
-                                    <a href="#"> My Profile</a>
-                                </li>
-                                <li> <img src="./image/icone/th_1.jpeg" alt="img">
-                                    <a href="#"> Edit Profile</a>
-                                </li>
-                                <li> <img src="./image/icone/th_2.jpeg" alt="img">
-                                    <a href="#">Inbox</a>
-                                </li>
-                                <li> <img src="./image/icone/th_3.jpeg" alt="img">
-                                    <a href="#">Settings</a>
-                                </li>
-                                <li> <img src="./image/icone/th_3.jpeg" alt="img">
-                                    <a href="#">Logout</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-            
-
-            <div class="w-100 d-none d-md-inline justify-content-center">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Overview</a> </li>
-                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Feature</a> </li>
-                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Getting Started</a> </li>
-                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">Media</a> </li>
-                    <li class="nav-item js-scroll-trigger"> <a href="#" class="nav-link">FAQ</a> </li>
+        <div class="container-fluid title-site">
+            <a class="navbar-brand" href="#">SR Babio</a>
+        
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Professional space</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Feature</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Media</a>
+                    </li>
                 </ul>
-            </div>
-
-            <div class="justify-content-end d-none d-md-inline">
-                <div class="d-flex align-content-between">
-                    <a href="#" class="btn btn-lg">SIGN_IN</a>
-                </div>
+        
+                <ul class="navbar-nav d-flex justify-content-end connect">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./profil.html">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inscription</a>
+                    </li>
+                </ul>
+                   
             </div>
         </div>
+        
     </nav>
 
+    <div class="landing">
+        <div class="landing-sec-1">
+            <p>
+                <span>Beautiful Game,</span> <br>
+                <span>Intense reality</span>
+            </p>
+        </div>
+        <div class="landing-sec-2">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Ea nemo porro perferendis ad repudiandae optio corrupti esse 
+                dolore ex corporis ullam quia, consequatur ducimus laboriosam
+                molestiae libero quidem inventore id.
+            </p>
+        </div>
+        <div class="button">
+            <button class="btn btn-outline-secondary px-4 me-3">
+                PLAY FREE
+            </button>
+            <button class="btn btn-outline-primary px-4">
+                LEARN MORE
+            </button>
+        </div>
+    </div>    
 
+    <!-- Professional space -->
+
+    <div class="landing-2">
+        <span> <a href="#about" id="about"> About of </a>  </span>
+        <div class="d-inline-block">
+            <div class="first-section">
+                <p>
+                    Hello My name's Toîb
+                    I'm a designer profesionnal
+                </p>
+            </div>
+            <div class="second-section d-flex flex-column">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse fugit animi eveniet reiciendis soluta assumenda consectetur sequi officia excepturi sapiente id inventore nam pariatur nostrum magnam, dolor aut rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse fugit animi eveniet reiciendis soluta assumenda consectetur sequi officia excepturi sapiente id inventore nam pariatur nostrum magnam, dolor aut rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse fugit animi eveniet reiciendis soluta assumenda consectetur sequi officia excepturi sapiente id inventore nam pariatur nostrum magnam, dolor aut rerum?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse fugit animi eveniet reiciendis soluta assumenda consectetur sequi officia excepturi sapiente id inventore nam pariatur nostrum magnam, dolor aut rerum?
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- About -->
+    <!-- Professional space -->
+    <!-- Feature -->
+    <!-- Media -->
+    <!-- Highgliths Publications -->
+   
     
     <footer>
         <div class="text-center">

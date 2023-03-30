@@ -25,3 +25,32 @@ value="Menu"><i class="fa fa-bars"></i>
         <h2> Highgliths Publications </h2>
         <h2> More </h2>
     </div>
+
+
+    *{
+        /*background-color: aliceblue;*/
+        background-color: linear-gradient(90°,rgb(70, 66, 66),rgb(182, 182, 182));
+    }
+
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+
+
+    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        T BABIO
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap"></use>
+        </svg>
+    </a>
+
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Overview</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Feature</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Media</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+    </ul>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Highgliths Publications</a>
+                    </li>
